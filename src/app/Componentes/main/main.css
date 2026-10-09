@@ -1,0 +1,94 @@
+.inicio {
+    background-color: #f5f5f5;
+    padding: 70px 0;
+}
+
+.inicio h1 {
+    color: #800020;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.inicio p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn-continental {
+    background-color: #800020;
+    color: white;
+    padding: 12px 25px;
+}
+
+.btn-continental:hover {
+    background-color: #5c0017;
+    color: white;
+}
+
+.imagen-inicio {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.nosotros h2,
+.oferta h2,
+.vida h2 {
+    color: #800020;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nosotros p,
+.vida p {
+    font-size: 17px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.oferta {
+    background-color: #f5f5f5;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 3px 10px #00000020;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #800020;
+    font-weight: bold;
+}
+
+.imagen-vida {
+    width: 80%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+@media (max-width: 767px) {
+    .inicio {
+        padding: 40px 0;
+    }
+
+    .inicio h1 {
+        font-size: 30px;
+    }
+
+    .imagen-inicio {
+        margin-top: 25px;
+        height: 250px;
+    }
+
+    .imagen-vida {
+        width: 100%;
+    }
+}
+```

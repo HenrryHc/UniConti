@@ -1,0 +1,70 @@
+.navbar-continental {
+    background-color: #800020;
+    padding: 12px 0;
+}
+
+.logo-universidad {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    margin-right: 12px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.navbar-continental .navbar-brand {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-continental .nav-link {
+    color: white;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.navbar-continental .nav-link:hover {
+    color: #ffd6df;
+}
+
+.btn-header {
+    background-color: white;
+    color: #800020;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 9px 15px;
+}
+
+.btn-header:hover {
+    background-color: #430013;
+    color: white;
+    border-color: white;
+}
+
+.navbar-continental .navbar-toggler {
+    border: 1px solid white;
+}
+
+.navbar-continental .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 991.98px) {
+    .navbar-continental .navbar-brand {
+        font-size: 14px;
+    }
+
+    .logo-universidad {
+        width: 45px;
+        height: 45px;
+    }
+
+    .navbar-continental .navbar-nav {
+        padding-top: 12px;
+    }
+
+    .navbar-continental .nav-link {
+        padding: 10px 0;
+    }
+}

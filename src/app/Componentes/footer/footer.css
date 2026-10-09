@@ -1,0 +1,59 @@
+.footer-universidad {
+    background-color: #800020;
+    color: white;
+    padding: 45px 0 15px;
+}
+
+.footer-universidad h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-logo {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.footer-universidad p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-enlaces {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-enlaces li {
+    margin-bottom: 10px;
+}
+
+.footer-enlaces a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-enlaces a:hover {
+    text-decoration: underline;
+}
+
+.footer-universidad hr {
+    border-color: white;
+    margin-top: 30px;
+}
+
+.footer-final p {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+@media (max-width: 767px) {
+    .footer-universidad {
+        text-align: center;
+    }
+}
